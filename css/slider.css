@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    padding: 0 15px;
+}
+.testimonials{
+    padding: 100px 0;
+}
+.testimonials-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 30px;
+}
+.testimonials-item .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials-item .text-box p{
+    color: #fff;
+    padding: 0 25% 0 25%;
+    font-size: 30px;
+}
+.testimonials-item .info img{
+    width: 100%;
+}
+.pp{
+    width: 100%;
+}
+
